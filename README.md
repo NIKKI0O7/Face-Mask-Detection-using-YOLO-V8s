@@ -19,7 +19,3 @@ Ensure you have the following dependencies installed:
 
 https://github.com/user-attachments/assets/d0ab7111-075e-4dcb-83f7-5bfed46eaf2b
 
-##Usage
-
-Just open the .ipynb file to know the training procedure.
-
