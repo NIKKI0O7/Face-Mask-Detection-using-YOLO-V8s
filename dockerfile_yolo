@@ -1,4 +1,3 @@
-
 # Use an official Python runtime as a parent image
 FROM python:3.8
 
@@ -11,6 +10,11 @@ COPY . .
 # Install required packages
 RUN pip install -r requirements.txt
 
-# Specify the command to run when the container starts
-CMD ["python", "C:\Users\apaar\Desktop\WobotAssignment\yolo.ipynb"]
+# Install Jupyter Notebook
+RUN pip install notebook
 
+# Expose the port that Jupyter uses
+EXPOSE 8888
+
+# Specify the command to run Jupyter Notebook
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
