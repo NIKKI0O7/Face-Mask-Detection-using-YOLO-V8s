@@ -6,7 +6,6 @@ Face Mask Detection using YOLO-V8
 
 This project involves training and deploying a YOLOv8 object detection model. The pipeline includes data preparation, model training, and video processing. 
 
-###Requirements
 
 Ensure you have the following dependencies installed:
 
