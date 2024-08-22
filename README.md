@@ -8,7 +8,7 @@ YOLOv9e (You Only Look Once version 9 ), known for its efficiency in real-time o
 Framework:
 PyTorch, chosen for its flexibility and ease of use in implementing YOLO models.
 
-Data Preparation:
+
 
 Annotation Conversion: Transformed the annotations from the standard bounding box format (x1, x2, y1, y2) to the YOLO format (center x, center y, width, height) to fit YOLO's requirements.
 
