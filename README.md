@@ -11,7 +11,7 @@ PyTorch, chosen for its flexibility and ease of use in implementing YOLO models.
 Data Preparation:
 
 Annotation Conversion: Transformed the annotations from the standard bounding box format (x1, x2, y1, y2) to the YOLO format (center x, center y, width, height) to fit YOLO's requirements.
-Training Details:
+
 
 Training Duration: 124 epochs, which indicates a thorough training process.
 
